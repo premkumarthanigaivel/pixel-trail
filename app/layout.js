@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
             
 const getSessionCookie = name => {
   const matches = document.cookie.match(
-    new RegExp(`(?:^|;)\\s*${name}=([^;]*)`)
+    new RegExp(\`(?:^|;)\\s*\${name}=([^;]*)\`)
   )
   return matches ? decodeURIComponent(matches[1]) : ""
 }
