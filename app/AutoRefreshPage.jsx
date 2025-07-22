@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 
 const AutoRefreshPage = () => {
   const [isAutoRefresh, setIsAutoRefresh] = useState(false);
-  const [countdown, setCountdown] = useState(1);
+  const [countdown, setCountdown] = useState(5);
   const [refreshCount, setRefreshCount] = useState(0);
   // Check URL parameters and start auto-refresh if needed
   useEffect(() => {
