@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
         {`
           (function() {
             // Configuration
-            const domainKey = '68808776332d148f4997c0c4';
+            const domainKey = '6880aeb1332d148f4997c221';
             const proApiUrl = 'https://proapi.uat.experience.com';
             
             // Utility functions
